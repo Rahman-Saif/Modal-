@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="middle min-h-screen min-w-screen flex justify-center items-center">
+        <div class="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+  <div class="card-body">
+    <!-- The button to open modal -->
+<a href="#my_modal_8" class="btn" id="open-mod">open modal</a>
+<div id="modal" class="hidden" role="dialog">
+  <div class="modal-box">
+    <h3 class="font-bold text-lg">Hello!</h3>
+    <p class="py-4">This modal works with anchor links</p>
+    <div >
+     <a href="#" class="btn" id="close-btn">Yay!</a>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
